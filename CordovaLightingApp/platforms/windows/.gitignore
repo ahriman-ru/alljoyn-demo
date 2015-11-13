@@ -1,0 +1,5 @@
+/build/
+/.vs/
+/Debug/
+/x64/
+*.jsproj.user

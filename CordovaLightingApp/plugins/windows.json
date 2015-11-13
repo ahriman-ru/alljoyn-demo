@@ -1,0 +1,39 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "package.windows80.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"internetClientServer\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "package.windows.appxmanifest": {
+                "parents": {
+                    "/Package/Capabilities": [
+                        {
+                            "xml": "<Capability Name=\"internetClientServer\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-alljoyn": {
+            "PACKAGE_NAME": "CordovaLightingApp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "CordovaLightingApp"
+        }
+    },
+    "dependent_plugins": {}
+}
