@@ -29,4 +29,9 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <vs:plugin name="cordova-plugin-alljoyn" src="https://github.com/AllJoyn-Cordova/cordova-plugin-alljoyn" version="0.0.5" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="16" />
+    <preference name="BackupWebStorage" value="none" />
 </widget>

@@ -1,0 +1,59 @@
+  <ion-view hide-back-button="true" view-title="Lighting Control">
+    <ion-content padding="true">
+
+    <div class="list">
+
+        <div class="item item-divider">
+            Lifx White 800
+        </div>
+
+
+        <div class="item range range-positive">
+            <p>Brightness</p>
+            <i class="icon ion-ios-sunny-outline"></i>
+            <input type="range" id="brightnessBar" min="0" step="20" max="100" value="33">
+            <i class="icon ion-ios-sunny"></i>
+        </div>
+
+
+
+        <div class="item range range-positive">
+            <p>Saturation</p>
+            <i class="icon ion-ios-sunny-outline"></i>
+            <input type="range" id="SaturationBar" min="0" step="20" max="100" value="33">
+            <i class="icon ion-ios-sunny"></i>
+        </div>
+
+
+        <div class="item range range-positive">
+            <p>Hue</p>
+            <i class="icon ion-ios-lightbulb-outline"></i>
+            <input type="range" id="hueBar" min="0" step="20" max="100" value="33">
+            <i class="icon ion-ios-lightbulb"></i>
+        </div>
+
+        <div class="item range range-positive">
+            <p>Color Temp</p>
+            <i class="icon ion-ios-lightbulb-outline"></i>
+            <input type="range" id="colorTempBar" min="0" step="20" max="100" value="33">
+            <i class="icon ion-ios-lightbulb"></i>
+        </div>
+
+
+        <div class="item item-toggle">
+            Power On/Off
+            <label class="toggle toggle-energized">
+                <input type="checkbox" id="onOffSwitch" />
+                    <div class="track">
+                     <div class="handle"></div>
+            </label>
+        </div>
+
+    </div>
+
+    <button id="applyPulseEffectButton" class="button button-full button-positive">
+        Pulse Effect
+    </button>
+
+    </ion-content>
+  </ion-view>

@@ -33,6 +33,21 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "CordovaLightingApp"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "CordovaLightingApp"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "CordovaLightingApp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "CordovaLightingApp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "CordovaLightingApp"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "CordovaLightingApp"
         }
     },
     "dependent_plugins": {}

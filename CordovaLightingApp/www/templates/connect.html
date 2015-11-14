@@ -1,0 +1,45 @@
+<ion-view view-title="Setting Up Connectivity">
+<!--         <ion-nav-buttons side="left">
+          <button class="button button-icon icon ion-flash"
+                  ng-click="tryAgain()" ng-show="slideIndex!==2">
+            Try again
+          </button>
+        </ion-nav-buttons> -->
+        <ion-slide-box on-slide-changed="slideChanged(index)">
+
+          <ion-slide>
+
+            <!-- <ion-spinner icon="lines" class="spinner-calm"></ion-spinner> -->
+            <ion-spinner icon="dots" class="spinner-dark"></ion-spinner>
+            <h3>Connecting to ALLJOYN router!</h3>
+            <div id="logo">
+              <img src="./img/discover-router.png">
+            </div>
+            <p>
+              We'are working super hard to find it.
+            </p>
+            <p>
+              This should not take much time.
+            </p>
+          </ion-slide>
+          <ion-slide>
+            <ion-spinner icon="dots" class="spinner-dark"></ion-spinner>
+            <h3>Looking for LIFX light bulb</h3>
+            <div id="logo">
+              <img src="./img/discover-bulb.jpeg">
+            </div>
+            <p>
+              Make sure it is On and connected to the same network.
+            </p>
+          </ion-slide>
+          <ion-slide>
+            <h3>You are all set now!</h3>
+                        <div id="logo">
+              <img ng-click="startApp()" src="./img/app-start.jpeg">
+            </div>
+            <p>
+              Tap to start.
+            </p>
+          </ion-slide>
+        </ion-slide-box>
+      </ion-view>
